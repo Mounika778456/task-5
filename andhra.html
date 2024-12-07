@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Universities in Andhra Pradesh</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Navigation Bar */
+    header {
+      background-color: #333;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      margin: 0;
+      padding: 10px;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-image: url('https://blogdotpetersonsdotcom.files.wordpress.com/2017/08/graduate-dilemmas-how-to-change-your-college-mindset-and-become-a-professional.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 80px 0;
+      height:800px;
+      text-align: center;
+    }
+
+    .hero-content h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    /* University Section */
+    .universities {
+      padding: 50px;
+      height:900px;
+      background-color: rgb(204, 85, 174);
+    }
+
+    .university-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .university-card {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .university-card img {
+      width: 200px;
+      height: 200px;
+      border-radius: 8px;
+    }
+
+    /* Blog Section */
+    .blog {
+      padding: 70px;
+      background-color: #69d9e7;
+    }
+
+    .blog-posts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .blog-card {
+      background-color: #e9f0f1;
+      padding: 50px;
+      border-radius: 8px;
+      width: 400px;
+      height:400px
+      box-shadow :  0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .blog-card h3 { 
+      margin: 0;
+    }
+
+    /* Video Section */
+    .video-section {
+      padding: 50px;
+      text-align: center;
+      background-color: #4fc27f;
+    }
+
+    .video-container iframe {
+      width: 80%;
+      max-width: 800px;
+      height: 450px;
+    }
+
+    /* Contact Section */
+    .contact {
+      padding: 50px;
+      text-align: center;
+      background-color: #e98c70;
+      color: white;
+    }
+
+    .contact-details h3 {
+      color: #f4f4f4;
+      margin-top: 30px;
+    }
+
+    .contact-details p {
+      margin: 10px 0;
+    }
+
+    .contact-details a {
+      color: #56c7f7;
+      text-decoration: none;
+    }
+
+    .contact-details a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .university-list {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .blog-posts {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#universities">Top Universities</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section with Background Image -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Top Universities in Andhra Pradesh</h1>
+      <p>Explore the best educational institutions in Andhra Pradesh.</p>
+    </div>
+  </section>
+
+  <!-- Universities Section -->
+  <section id="universities" class="universities">
+    <h2>Top Universities</h2>
+    <div class="university-list">
+      <!-- University 1 -->
+      <div class="university-card" data-aos="fade-up">
+        <img src="https://www.vidyabharati.in/wp-content/uploads/2024/11/bed-admission-andhra-university.jpeg" alt="University 1 Image" class="university-image" loading="lazy">
+        <h3>Andhra university</h3>
+        <p>Details about University 1...</p>
+        <a href="https://en.wikipedia.org/wiki/Andhra_University" target="_blank">Visit Website</a>
+      </div>
+      <!-- University 2 -->
+      <div class="university-card" data-aos="fade-up">
+        <img src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-4v0vebtg3oie85gfsvdsi1kku6-20230904021808.Medi.jpeg" alt="University 2 Image" class="university-image" loading="lazy">
+        <h3>JNTUK university</h3>
+        <p>Details about University 2...</p>
+        <a href="https://en.wikipedia.org/wiki/Jawaharlal_Nehru_Technological_University,_Kakinada" target="_blank">Visit Website</a>
+      </div>
+      <!-- University 3 -->
+      <div class="university-card" data-aos="fade-up">
+        <img src="https://data.testprepkart.com/university/Sri_Venkateswara_University_College_of_Engineering_(SVCUE__Triputi)_testprepkart_61bd9e2c715ef.jpg" alt="University 3 Image" class="university-image" loading="lazy">
+        <h3>Sri venkateswara university</h3>
+        <p>Details about University 3...</p>
+        <a href="https://svuniversity.edu.in/about" target="_blank">Visit Website</a>
+      </div>
+      <!-- University 4 -->
+      <div class="university-card" data-aos="fade-up">
+        <img src="https://www.spmvv.ac.in/jbframework/uploads/2022/06/banner_arch.jpg" alt="University 4 Image" class="university-image" loading="lazy">
+        <h3>Sri padmavathi mahila university</h3>
+        <p>Details about University 4...</p>
+        <a href="https://en.wikipedia.org/wiki/Sri_Padmavati_Mahila_Visvavidyalayam" target="_blank">Visit Website</a>
+      </div>
+      <!-- University 5 -->
+      <div class="university-card" data-aos="fade-up">
+        <img src="https://www.nagarjunauniversity.ac.in/departments/engg/bsh/img/bgg1.jpg" alt="University 5 Image" class="university-image" loading="lazy">
+        <h3>Nagarjuna university</h3>
+        <p>Details about University 5...</p>
+        <a href="https://en.wikipedia.org/wiki/Acharya_Nagarjuna_University" target="_blank">Visit Website</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="blog">
+    <h2>Latest Blog Posts</h2>
+    <div class="blog-posts">
+      <div class="blog-card">
+        <h3>Blog Post 1</h3>
+        <p>Introduction to Andhra university...</p>
+        <a href="https://www.andhrauniversity.edu.in/">Read More</a>
+      </div>
+      <div class="blog-card">
+        <h3>Blog Post 2</h3>
+        <p>Introduction to JNTUK university...</p>
+        <a href="https://www.jntuk.edu.in/about">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section id="video" class="video-section">
+    <h2>Watch Our Video</h2>
+    <div class="video-container">
+      <iframe width="560" height="315" src="C:\Users\koppi\OneDrive\Documents\Desktop\WhatsApp Video 2024-12-07 at 18.59.38_9b46c0d1.mp4" title="Top Universities Video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like more information about any of the universities listed above, feel free to contact us:</p>
+
+    <div class="contact-details">
+      <h3>University 1 Contact Information</h3>
+      <p>Email: <a href="mailto:info@university1.edu">info@university1.edu</a></p>
+      <p>Phone: +91 123 456 7890</p>
+      
+      <h3>University 2 Contact Information</h3>
+      <p>Email: <a href="mailto:contact@university2.edu">contact@university2.edu</a></p>
+      <p>Phone: +91 234 567 8901</p
